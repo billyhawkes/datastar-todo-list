@@ -1,0 +1,24 @@
+{
+  "name": "datastar-template",
+  "module": "src/index.tsx",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.tsx",
+    "dev": "bun --watch src/index.tsx"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.18",
+    "drizzle-kit": "^0.31.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.10",
+    "drizzle-orm": "^0.44.3",
+    "drizzle-zod": "^0.8.2",
+    "hono": "^4.8.5",
+    "zod": "^4.0.5"
+  }
+}
